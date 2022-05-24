@@ -9,37 +9,37 @@ import Link from "next/link";
 const Team = () =>{
     const team = [
         {
-            twitter:"",
+            twitter:"/home",
             img:"https://cdn.discordapp.com/attachments/897398778166906911/950274267470233620/unknown.png",
             name:"Abel",
         },
         {
-            twitter:"",
+            twitter:"/home",
             img:"https://cdn.discordapp.com/attachments/897398778166906911/950273947147059230/unknown.png",
             name:"David",
         },
         {
-            twitter:"",
+            twitter:"/home",
             img:"https://cdn.discordapp.com/attachments/897398778166906911/950273846894813234/unknown.png",
             name:"Henry",
         },
         {
-            twitter:"",
+            twitter:"/home",
             img:"https://cdn.discordapp.com/attachments/897398778166906911/950273679881814016/unknown.png",
             name:"Joan",
         },
         {
-            twitter:"",
+            twitter:"/home",
             img:"https://cdn.discordapp.com/attachments/897398778166906911/950273522666700830/unknown.png",
             name:"FengFeng",
         },
         {
-            twitter:"",
+            twitter:"/home",
             img:"https://cdn.discordapp.com/attachments/897398778166906911/950273329422553128/unknown.png",
             name:"Boin",
         },
         {
-            twitter:"",
+            twitter:"/home",
             img:"https://cdn.discordapp.com/attachments/897398778166906911/950273522666700830/unknown.png",
             name:"PangPang",
         }
@@ -56,7 +56,7 @@ const Team = () =>{
                             </div>
                             <div className="mt-24 grid grid-cols-2 md:grid-cols-5 gap-12 text-center">
                                 {team.map((item=>(
-                                    <Link key={item.twitter} href={item.twitter}>
+                                    <Link key={item.name} href={item.twitter}>
                                         <a className="items-center mx-auto">
                                         <img className="rounded-full w-36" src={item.img} alt=""/>
                                             <div className="mt-3 text-white   ">
@@ -68,11 +68,8 @@ const Team = () =>{
                             </div>
                             <Tail/>
                         </div>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
     )
