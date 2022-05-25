@@ -6,7 +6,7 @@ const IndexPage: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>david</title>
+        <title>SharersDao | Web3 Sharers Dao</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
           <Home></Home>
