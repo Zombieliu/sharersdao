@@ -49,15 +49,15 @@ const ends =[
             }
         ]
     },
-    {
-        title:"Sharers",
-        content:[
-            {
-                h1:"",
-                href:"",
-            },
-        ]
-    }
+    // {
+    //     title:"Sharers",
+    //     content:[
+    //         {
+    //             h1:"",
+    //             href:"",
+    //         },
+    //     ]
+    // }
 ]
 const Tail=()=>{
     return(
@@ -86,7 +86,7 @@ const Tail=()=>{
                         <img className="w-64" src="/logo.png" alt=""/>
                     </div>
                     <div className="my-5 text-gray-300  text-center xl:-ml-2">
-                        The best Dapp of SharersDao
+                        The Best DApp of SharersDao
                     </div>
                 </div>
 
